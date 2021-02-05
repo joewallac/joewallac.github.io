@@ -1,12 +1,68 @@
-body {
-    background: rgb(112, 128, 144);
-    background-size: 1100px 100vh;
-    height: 100vh;
-    background-image: url(https://wallpapercave.com/wp/wp6925776.jpg);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  body {
+   /* background-image: url('../img/wp6925776.jpg');*/
+    background-size: auto 100vh;
     font-family: roboto;
+    height: 100vh;
+    font-size: 12px;
+    /** background-image: url(https://wallpapercave.com/wp/wp6925776.jpg);*/
   }
+
+
+/* se a tela tiver pelo menos 400px vai carregar estes estilos */
+@media (min-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+  header {
+    font-size: 14px;
+  }
+}
+
+/* breakpoint */
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+    /*background-image: none;
+    background-color: deeppink;*/
+  }
+
+
+}
+  header {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    /*position: relative;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
+    
+    align-items: center;
+   primeiro teste que falhou
+  }*/
+
   .menu {
     background: rgb(255, 195, 0);
+    position: fixed;
+    width: 100vw;
+    top: 000;
+    
     
    
   }
@@ -16,6 +72,11 @@ body {
   .menu ul {
     display: flex; 
     justify-content: space-around;
+  }
+  .menu a{
+    display: block;
+    padding: 10px 20px ;
+    background-color: rgb(219, 209, 59);
   }
   a {
     text-decoration: none;
@@ -33,8 +94,20 @@ body {
   .site-title {  
     color: rgb(255, 195, 0);
     font-size: 55px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
   }
   .site-subtitle {  
     color: rgb(185, 095, 0);
     font-style: italic;
   }
+
+ .img-portfolio {
+    width:100vw;
+    height: fit-content;
+ }
+
+
+  
