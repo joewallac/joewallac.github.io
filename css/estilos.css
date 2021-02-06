@@ -93,7 +93,8 @@
   }
   .site-title {  
     color: rgb(255, 195, 0);
-    font-size: 55px;
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -102,11 +103,12 @@
   .site-subtitle {  
     color: rgb(185, 095, 0);
     font-style: italic;
+    font-family: 'Roboto', sans-serif;
   }
 
  .img-portfolio {
-    width:100vw;
-    height: fit-content;
+    width:100%;
+    height: 2fr;
  }
 
 
